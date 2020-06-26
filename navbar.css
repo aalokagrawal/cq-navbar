@@ -58,6 +58,15 @@ nav{
   .burger{
     display: block;
   }
+    .logo{
+    font-size: 5vh;
+  }
+  .burger div{
+    width:8vw;
+    height:0.7vh;
+    margin: 10px;
+    background-color: black;
+  }
   .Navbaritems{
     margin: 0;
     padding: 0;
@@ -81,12 +90,12 @@ nav{
   transform: translateX(0%);
 }
 .close .line1{
-  transform: rotate(45deg)translate(5px,5.5px);
+  transform: rotate(45deg)translate(7px,6px);
 }
 .close .line2{
   opacity: 0;
 
 }
 .close .line3{
-  transform: rotate(-45deg) translate(5px,-5.5px);
+  transform: rotate(-45deg) translate(7px,-6px);
 }
