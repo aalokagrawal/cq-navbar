@@ -63,7 +63,7 @@ nav{
   }
   .burger div{
     width:8vw;
-    height:0.7vh;
+    height:0.5vh;
     margin: 10px;
     background-color: black;
   }
@@ -90,12 +90,12 @@ nav{
   transform: translateX(0%);
 }
 .close .line1{
-  transform: rotate(45deg)translate(8px,9.5px);
+  transform: rotate(45deg)translate(13px,14px);
 }
 .close .line2{
   opacity: 0;
 
 }
 .close .line3{
-  transform: rotate(-45deg) translate(8px,-9.5px);
+  transform: rotate(-45deg) translate(13px,-14px);
 }
